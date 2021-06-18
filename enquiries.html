@@ -1,0 +1,60 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>JAYBEE WENDY'S</title>
+            <link rel="stylesheet" href="main.css">
+        </head>
+        <body>
+            <div id = "everything">
+                <header>
+                    <div id="top">
+                        <a href="index.php">
+                            <h1 id="logo">JAYBEE WENDY'S HOUSING COMPANY</h1>
+                        </a>
+                    </div>
+                    <div id="bot">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="product.html">Product</a></li>
+                                <li><a href="enquiries.html" class="selected">Enquiries</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                <div id="meat">
+                <section>
+                    <h2>Message Form For Your Enquiries</h2>
+                    <br> <br>
+					<form id="main" action="index.html" method="post">
+                        <p>
+                            <label for="name" class="required label">Name:</label><br>
+                            <input id="name" class="contactform" type="text" name="name" />
+                        </p><br>
+                        <p>
+                            <label for="email" class="required label">Email:</label><br>
+                            <input id="email" class="contactform" placeholder="Example: jaybeewendy@gmail.com" type="text" name="email" />
+                        </p><br>
+                        <p>
+                            <label for="subject" class="required label">Subject:</label><br>
+                            <input id="subject" class="contactform" type="text" name="subject" />
+                        </p><br>
+                        <p>
+                            <label id="message-label" for="message" class="required label">Message:</label><br>
+                            <textarea id="message" class="contactform" name="message" cols="28" rows="5"></textarea>
+                        </p><br>
+                        <p>
+                            <label></label>
+                            <input class="contactform" id="submit-button" type="submit" name="Submit" value="Submit" style="height: 35px;" />
+                        </p>
+                    </form>
+                </section>
+                <footer>
+                    <p>&copy; Copyright 2021 | JAYBEE WENDY'S</p>
+                </footer>
+                </div>
+            </div>
+        </body>
+    </html>
